@@ -90,6 +90,11 @@ register(
     max_episode_steps=500,
 )
 
+register(
+     id='SuperMarioBros-1-1-v0',
+     entry_point='gym.envs.ppaquette_gym_super_mario:MetaSuperMarioBrosEnv',
+)
+
 # Box2d
 # ----------------------------------------
 
